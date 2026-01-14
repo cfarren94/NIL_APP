@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CCIE Security Quiz</title>
+  <meta name="theme-color" content="#111111" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="title">CCIE Security Quiz</div>
+      <div class="meta" id="metaLine">Loading…</div>
+    </div>
+    <div class="actions">
+      <button id="restartBtn" class="btn btn-secondary" type="button" title="Restart">Restart</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="startScreen" class="card">
+      <h1>Quiz</h1>
+      <p class="muted">
+        Single file question bank. Supports “choose two/three” questions.
+      </p>
+
+      <div class="row">
+        <label class="check">
+          <input id="showInstantFeedback" type="checkbox" checked />
+          <span>Show feedback after each question</span>
+        </label>
+      </div>
+
+      <div class="row">
+        <button id="startBtn" class="btn" type="button">Start</button>
+      </div>
+    </section>
+
+    <section id="quizScreen" class="card hidden" aria-live="polite">
+      <div class="qhead">
+        <div class="qnum" id="qnum"></div>
+        <div class="pill" id="domainPill" title="Domain label (if available)"></div>
+      </div>
+
+      <div class="qtext" id="qtext"></div>
+      <div class="subtle" id="chooseHint"></div>
+
+      <form id="optionsForm" class="options"></form>
+
+      <div id="feedback" class="feedback hidden"></div>
+
+      <div class="footer">
+        <button id="submitBtn" class="btn" type="button">Submit</button>
+        <button id="nextBtn" class="btn btn-secondary hidden" type="button">Next</button>
+      </div>
+    </section>
+
+    <section id="resultScreen" class="card hidden">
+      <h2>Results</h2>
+      <p id="resultLine" class="resultLine"></p>
+      <div class="row">
+        <button id="reviewBtn" class="btn btn-secondary" type="button">Review answers</button>
+        <button id="restartBtn2" class="btn" type="button">Restart</button>
+      </div>
+
+      <div id="reviewArea" class="review hidden"></div>
+    </section>
+
+    <footer class="tiny muted">
+      <span id="versionLine"></span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

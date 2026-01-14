@@ -1,0 +1,3383 @@
+[
+  {
+    "id": 1,
+    "domain": "",
+    "question": "Which statement is correct?",
+    "options": {
+      "A": "When the AMP connector sees file - it first looks in the cache in the cloud",
+      "B": "All SHA-256 hashes are known on the host upon installation if a full scan is performed - so processing time is much faster",
+      "C": "When the AMP connector sees file - it first calculates the SHA-256",
+      "D": "Windows Servers receive higher priority than Windows hosts when referencing the cloud"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 2,
+    "domain": "",
+    "question": "Which two statements about the Cisco clientless remote access SSL VPN solution are correct? (Choose two) : C) D)",
+    "options": {
+      "A": "It offers direct full network access to internal resources",
+      "B": "It allows remote users to access enterprise applications only from enterprise-managed endpoints",
+      "C": "It can bypass most firewalls in the path",
+      "D": "It enables a remote user to use a web browser to access internal resources",
+      "E": "The VPN gateway for clientless SSL VPN must be a Cisco Firepower NGFW appliance"
+    },
+    "choose": 2,
+    "answer": [
+      "C",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 3,
+    "domain": "",
+    "question": "Which IP attack type is a simultaneous - coordinated attack from multiple source machines?",
+    "options": {
+      "A": "Rogue DHCP attack",
+      "B": "DDoS attack",
+      "C": "MITM attack",
+      "D": "ICMP-based operating system fingerprinting"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 4,
+    "domain": "",
+    "question": "An organization is concerned about the potential threats that can target its network infrastructure devices - such as routers and switches. Which aspect of network infrastructure protection aims to ensure that only authorized users can access and configure these devices?",
+    "options": {
+      "A": "Network segmentation",
+      "B": "Network monitoring",
+      "C": "Access control",
+      "D": "Intrustion prevention"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 5,
+    "domain": "",
+    "question": "Which type of PVLAN port has a complete Layer 2 separation from the other ports within the same primary VLAN - except from the promiscuous ports?",
+    "options": {
+      "A": "Promiscuous",
+      "B": "Community",
+      "C": "Isolated",
+      "D": "Secondary"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 6,
+    "domain": "",
+    "question": "An attacker exploits a vulnerability in a web application's input validation process - injecting malicious SQL code into an input field. As a result - the attacker gains unauthorized access to the application's database and extracts sensitive information. Which of the following security practices could have mitigated this attack?",
+    "options": {
+      "A": "Implementing a Web Application Firewall (WAF)",
+      "B": "Configuring strong network perimeter defences",
+      "C": "Using HTTPS for secure data transmission",
+      "D": "Iframe injection"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 7,
+    "domain": "",
+    "question": "Which DNS record is used to locate the IP address of the receiving SMTP server? B) The PTR record D) The NS record Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 8,
+    "domain": "",
+    "question": "Which two IP packet attributes does NetFlow use? (Choose two) : A) B)",
+    "options": {
+      "A": "Destination port",
+      "B": "Destination IP",
+      "C": "Layer 7 protocol type",
+      "D": "Layer 1 type",
+      "E": "Device type"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 9,
+    "domain": "",
+    "question": "Which three security responsibilities regarding the PaaS solution are correct? (Choose three) : B) C) E)",
+    "options": {
+      "A": "The customer is responsible for the physical hardware",
+      "B": "The provider is responsible for the physical hardware",
+      "C": "The customer is responsible for the application and its data - and the application being used securely",
+      "D": "The provider is responsible for the application and its data - and the application being used securely",
+      "E": "The provider has network infrastructure security responsibilities"
+    },
+    "choose": 3,
+    "answer": [
+      "C",
+      "B",
+      "E"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 10,
+    "domain": "",
+    "question": "Which three options are considered DNS vulnerabilities? (Choose three) : A) D) E)",
+    "options": {
+      "A": "DNS cache poisoning attacks",
+      "B": "DNS resolution interception",
+      "C": "DNS phishing",
+      "D": "DNS amplification and refelection attacks",
+      "E": "DNS resource utilization attacks"
+    },
+    "choose": 3,
+    "answer": [
+      "E",
+      "A",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 11,
+    "domain": "",
+    "question": "By default - without any ACLs configured - what traffic is permitted through the Cisco ASA appliance?",
+    "options": {
+      "A": "All inbound connections from hosts on the lower-security-level interfaces to hosts on the higher-security-level interfaces",
+      "B": "All outbound connections from hosts on the higher-security-level interfaces to hosts on the lower-security-level interfaces",
+      "C": "All connections between interfaces with the same security level",
+      "D": "All connections"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 12,
+    "domain": "",
+    "question": "Which statement best describes how Cisco Cognitive Analytics identifies security breaches?",
+    "options": {
+      "A": "Cognitive Analytics uses geo-location database signatures to geo-locate attackers - which provides forensic data points",
+      "B": "Cognitive Analytics detects threats by scanning SSL/TLS-based payloads - decrypting the packet for deep packet analysis",
+      "C": "Cognitive Analytics uses network traffic behaviours - machine learning - and anomaly detection to detect security breaches",
+      "D": "Cognitive Analytics performs detailed analytics based on provided syslog and IPFIX data elements",
+      "E": "Cognitive Analytics detects data breaches by decoding ESP security payloads and comparing them to known signatures from security intelligence feeds that are provided by the Talos Intelligence Group"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 13,
+    "domain": "",
+    "question": "A company's security team is evaluating the use of encryption for data protection in the cloud. What advantage does encryption offer when securing data in transit and at rest in a cloud environment?",
+    "options": {
+      "A": "Encryption simplifies access management for cloud resources",
+      "B": "Encryption ensures data availability during network disruptions",
+      "C": "Encryption protects data confidentiality in case of unauthorized access",
+      "D": "Encryption eliminates the need for strong authentication in the cloud"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 14,
+    "domain": "",
+    "question": "On the Cisco ASA appliance - several interfaces can be grouped into a EtherChannel group for more throughput and redundancy between the security appliance - and the connected networking devices. What is the maximum number of EtherChannels and interfaces assigned per channel group that you can create on the Cisco ASA? with up to 8 active interfaces per channel group B) The Cisco ASA security appliances support up to 16 EtherChannels with up to 16 active interfaces per channel group 16 active interfaces per channel group D) The Cisco ASA security appliances support up to 48 EtherChannels with up to 32 active interfaces per channel group Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 15,
+    "domain": "",
+    "question": "Which option represents the messages that are used by AAA framework to dynamically modify active client's authorized state after a successful authentication in the guest portal?",
+    "options": {
+      "A": "Change of Authentication (CoA)",
+      "B": "Change of Authorization (CoA)",
+      "C": "Downloadable access control lists (DACLs)",
+      "D": "Scalable Group Tags (SGTs)"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 16,
+    "domain": "",
+    "question": "A security administrator is configuring IPsec VPN on a Cisco Firepower Next-Generation Firewall (NGFW). They have the option to choose between transport mode and tunnel mode. In which scenario would tunnel mode be more appropriate?",
+    "options": {
+      "A": "When securing communications between two hosts within the same network segment",
+      "B": "When encryption and authentication are not required for the VPN connection",
+      "C": "When connecting two separate networks over an untrusted network",
+      "D": "When NAT (Network Address Translation) is not supported on the firewall"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 17,
+    "domain": "",
+    "question": "Cisco ASA firewalls are advanced stateful firewalls. Which two advanced features can be found in these devices? (Choose two) : A) D)",
+    "options": {
+      "A": "Botnet traffic filtering",
+      "B": "ATM cell filtering",
+      "C": "Malware detonation using the embedded hard drive",
+      "D": "Network address translation mechanisms",
+      "E": "RIPv2 payload encryption mechanisms"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 18,
+    "domain": "",
+    "question": "Which three options are programmatic methods that can be used to manage network devices through APIs? (Choose three) : B) C) D)",
+    "options": {
+      "A": "EEM",
+      "B": "gRPC",
+      "C": "NETCONF",
+      "D": "RESTCONF",
+      "E": "SSH"
+    },
+    "choose": 3,
+    "answer": [
+      "D",
+      "B",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 19,
+    "domain": "",
+    "question": "A user downloads a seemingly harmless software application from a third-party website. After installing the application - the user notices that their computer's performance has significantly degraded - and they are receiving numerous pop-up advertisements. Further investigation reveals that the application contained hidden malware that is now causing disruptions. Which type of attack best characterizes this situation?",
+    "options": {
+      "A": "Ransomware attack",
+      "B": "Malware dropper attack",
+      "C": "Zero-day exploit attack",
+      "D": "Trojan horse attack"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 20,
+    "domain": "",
+    "question": "Which flow log type is handled by the Stealthwatch Cloud to provide network visibility into Microsoft Azure cloud environments?",
+    "options": {
+      "A": "Network Security Group flow logs",
+      "B": "Security Group Tag flow logs",
+      "C": "Virtual Private Cloud flow logs",
+      "D": "NetFlow flow logs"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 21,
+    "domain": "",
+    "question": "What is the primary reason to use a sandbox to analyse unknown suspicious files?",
+    "options": {
+      "A": "To determine exactly what a file does before it is labelled malicious or benign",
+      "B": "To block any suspected malware in real time before it can inflect the end user",
+      "C": "To provide evidence for post-incident forensics reports",
+      "D": "To run it in a production environment to see its effects"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 22,
+    "domain": "",
+    "question": "Which Cisco IOS tool does CoPP use to protect the router CPU?",
+    "options": {
+      "A": "ACLs",
+      "B": "Prefix lists",
+      "C": "Route maps Missed D) Modular QoS CLI Incorrect answer E) CoPP policies"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 23,
+    "domain": "",
+    "question": "Which Cisco ASA appliance or Cisco Firepower NGFW configuration construct defines the post login settings?",
+    "options": {
+      "A": "Connection profiles",
+      "B": "User profiles",
+      "C": "Group policies",
+      "D": "Connection policies",
+      "E": "Group profiles"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 24,
+    "domain": "",
+    "question": "What is the purpose of the Adaptive Scanning feature on the Cisco WSA?",
+    "options": {
+      "A": "It analyses web server behaviour and assigns a WBRS to an URL",
+      "B": "It decides which anti-malware scanning will process the web request",
+      "C": "It enables file reputation - file sandboxing - and file retrospection",
+      "D": "It inspects web traffic and provides protection against the widest variety of web-based malware"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 25,
+    "domain": "",
+    "question": "Which statement about AAA is correct?",
+    "options": {
+      "A": "Authentication is a process of applying authentication attributes to an authenticator in order to limit access from a user to the network",
+      "B": "Accounting is a process of identifying a user accessing the network",
+      "C": "Cisco ISE acts as AAA server in Cisco secure network access deployments",
+      "D": "Authorization is a process of tracking and auditing user's access to the network"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 26,
+    "domain": "",
+    "question": "An organization is considering the adoption of Software-Defined Networking (SDN) to enhance its network agility and flexibility. Which key feature of SDN enables network administrators to manage and control network resources programmatically?",
+    "options": {
+      "A": "Centralized management and control",
+      "B": "Static routing tables",
+      "C": "Proprietary protocols",
+      "D": "Isolated network segments"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 27,
+    "domain": "",
+    "question": "Which two options represent valid EAP messages? (Choose two) : B) D)",
+    "options": {
+      "A": "Access-Request",
+      "B": "Request",
+      "C": "Challenge",
+      "D": "Failure",
+      "E": "Hello"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 28,
+    "domain": "",
+    "question": "A company is evaluating the deployment of Cisco Web Security Appliance (WSA) and Cisco Umbrella for web content security. The organization needs to decide which solution offers better protection against direct-to-IP attacks and DNS-based threats. Which solution would be more effective for protecting against these specific threat types?",
+    "options": {
+      "A": "Cisco WSA - as it can inspect and filter direct-to-IP traffic",
+      "B": "Cisco Umbrella - as it can provide DNS-layer security to block malicious domains",
+      "C": "Both solutions provide equal protection against these threat types",
+      "D": "Neither solution can effectively protect against these threat types"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 29,
+    "domain": "",
+    "question": "In an IaaS use model - for which three components is the customer responsible? (Choose three) : B) C) D)",
+    "options": {
+      "A": "Hardware Missed B) Physical networking and storage",
+      "C": "Operating system",
+      "D": "Application data Incorrect answer E) Application software You did not select all available correct options."
+    },
+    "choose": 3,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 30,
+    "domain": "",
+    "question": "Which protocol and port is used by NTP for communication?",
+    "options": {
+      "A": "UDP - port 123",
+      "B": "TCP - port 123",
+      "C": "UDP - port 80",
+      "D": "TCP - port 80"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 31,
+    "domain": "",
+    "question": "Which two VPN components can be used when deploying a remote access VPN on a Cisco Firepower NGFW? (Choose two) : A) B)",
+    "options": {
+      "A": "AnyConnect Secure Mobility Client",
+      "B": "External AAA authentication server",
+      "C": "Web browser",
+      "D": "Application plug-ins",
+      "E": "ASA image installed"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 32,
+    "domain": "",
+    "question": "Regarding exploit kits - which option explains what a shadow domain is?",
+    "options": {
+      "A": "A second-level domain that is registered by a malicious person using compromised domain registration information from a legitimate site",
+      "B": "The series of redirects that a web browser goes through when a web page is unavailable due to being moved",
+      "C": "Websites set up by the company's information security teams to act as a 'honey pot' to catch malicious actors who may try to deface their website",
+      "D": "Domains that are registered with dynamic DNS or fast-flux DNS services to keep the domain and IP addresses frequently rotating to prevent detection by scanning tools"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 33,
+    "domain": "",
+    "question": "An organization is deploying 802.1X authentication across its network to enhance security. The security team is debating whether to use EAP-TLS or EAP-PEAP for authentication. What consideration might lead them to prefer EAP-PEAP?",
+    "options": {
+      "A": "EAP-PEAP provides stronger security due to mutual certificate exchange",
+      "B": "EAP-PEAP does not require the use of RADIUS servers Incorrect answer C) EAP-PEAP simplifies client certificate management Missed D) EAP-PEAP supports single sign-on (SSO) for users"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 34,
+    "domain": "",
+    "question": "Which option is a property of crypto maps?",
+    "options": {
+      "A": "Support for dynamic routing protocols",
+      "B": "Support for multicast traffic",
+      "C": "Traffic that needs encryption is defined by an ACL",
+      "D": "All traffic entering an interface is encrypted and encapsulated"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 35,
+    "domain": "",
+    "question": "Which two authentication mechanisms can be used with SNMP version 3? (Choose two) : B) D)",
+    "options": {
+      "A": "AES",
+      "B": "MD5",
+      "C": "3DES",
+      "D": "SHA",
+      "E": "DES"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 36,
+    "domain": "",
+    "question": "An organization is deploying a point-to-point IPsec VPN on a Cisco ASA firewall to securely connect its branch office to the main headquarters. Which component of the IPsec VPN setup ensures the confidentiality and integrity of the data being transmitted?",
+    "options": {
+      "A": "IKE (Internet Key Exchange) protocol",
+      "B": "Pre-shared key authentication",
+      "C": "IPsec encryption and authentication",
+      "D": "Digital certificates"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 37,
+    "domain": "",
+    "question": "A company's security team is evaluating the deployment of Cisco Stealthwatch Cloud. What advantage does Stealthwatch Cloud provide over traditional security solutions for cloud environments?",
+    "options": {
+      "A": "Stealthwatch Cloud offers real-time traffic analysis without the need for updates",
+      "B": "Stealthwatch Cloud provides protection against known threats through signature-based detection",
+      "C": "Stealthwatch Cloud can detect and alert on both known and unknown threats in the cloud",
+      "D": "Stealthwatch Cloud requires agents to be installed on every cloud resource"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 38,
+    "domain": "",
+    "question": "A company is considering the deployment of remote access SSL VPN for its mobile workforce. What advantage does SSL VPN offer over traditional IPsec VPN for remote access?",
+    "options": {
+      "A": "Stronger encryption algorithms for data protection",
+      "B": "Easier configuration and compatibility with web browsers",
+      "C": "Lower latency and higher throughput for remote connections",
+      "D": "Better support for site-to-site connections"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 39,
+    "domain": "",
+    "question": "Which statement regarding Ethos is correct?",
+    "options": {
+      "A": "Ethos is a signature-based technology",
+      "B": "Ethos is a type of machine learning",
+      "C": "Ethos is a type of fuzzy fingerprinting",
+      "D": "Ethos is available only by sending the file sample to the cloud"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 40,
+    "domain": "",
+    "question": "Which Linux security control should be used with a personal firewall to provide an additional layer of protection at the application layer and to permit or deny access to a specific service?",
+    "options": {
+      "A": "TCP wrappers",
+      "B": "IP tables",
+      "C": "Uncomplicated firewall (UFW)",
+      "D": "Host-based IPS"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 41,
+    "domain": "",
+    "question": "A company's security team is comparing traditional signature-based antivirus software with Cisco AMP for Endpoints. What advantage does Cisco AMP for Endpoints offer over traditional antivirus?",
+    "options": {
+      "A": "Cisco AMP for Endpoints can only detect known threats - not unknown ones",
+      "B": "Cisco AMP for Endpoints provides real-time protection without the need for updates",
+      "C": "Cisco AMP for Endpoints uses behavioural analysis to detect and block unknown threats",
+      "D": "Cisco AMP for Endpoints does not require a connection to the internet to be effective"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 42,
+    "domain": "",
+    "question": "What are two examples of control plane security controls? (Choose two) : A) B)",
+    "options": {
+      "A": "Routing protocol authentication",
+      "B": "Spanning tree protection",
+      "C": "Private VLANs",
+      "D": "uRPF checks",
+      "E": "Stateful packet inspections"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 43,
+    "domain": "",
+    "question": "Which option applies to the TACACS+ protocol?",
+    "options": {
+      "A": "Suitable for network access",
+      "B": "Combines authentication and authorization in a single process",
+      "C": "Separates all three aspects of AAA into individual processes",
+      "D": "Uses UDP port 1645 or 1812 for authentication and authorization"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 44,
+    "domain": "",
+    "question": "Which two criteria can be used for matching users to a mail policy? (Choose two) : B) C)",
+    "options": {
+      "A": "IP address",
+      "B": "Sender",
+      "C": "Recipients",
+      "D": "WBRS",
+      "E": "External threat feeds"
+    },
+    "choose": 2,
+    "answer": [
+      "C",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 45,
+    "domain": "",
+    "question": "On which basis does Cisco Umbrella provide protection?",
+    "options": {
+      "A": "IP addresses seen inside an HTTP request",
+      "B": "URL requested inside an HTTP request",
+      "C": "Domain name requested inside a DNS request",
+      "D": "IP addresses - ports - and protocols seen inside IP traffic"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 46,
+    "domain": "",
+    "question": "An organization is evaluating the use of Dynamic Multipoint Virtual Private Network (DMVPN) for its site-to-site VPN needs. What advantage does DMVPN offer over traditional site-to-site VPN deployments?",
+    "options": {
+      "A": "Higher throughput due to point-to-point connections",
+      "B": "Reduced complexity through a hub-and-spoke topology",
+      "C": "Centralized management of encryption keys",
+      "D": "Dynamic establishment of direct tunnels between remote sites"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 47,
+    "domain": "",
+    "question": "How do you manage Cisco Umbrella?",
+    "options": {
+      "A": "Through a public cloud-based dashboard",
+      "B": "Through a private cloud-based dashboard",
+      "C": "Through the Cisco Umbrella Virtual Appliance dashboard",
+      "D": "Through the Cisco Defense Orchestrator"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 48,
+    "domain": "",
+    "question": "Which two statements describe the Cisco secure network access solution? (Choose two) : B) E)",
+    "options": {
+      "A": "It is a product you can use to implement secure access to your network",
+      "B": "It is a set of products and services you can use to implement secure access to your network",
+      "C": "It is a set of products and services you can use to implement SSL VPN access to your network",
+      "D": "It is a feature only provided by Cisco Catalyst switches",
+      "E": "The foundation for Cisco secure network access is the IEEE 802.1X protocol"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "E"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 49,
+    "domain": "",
+    "question": "A company is evaluating the deployment of control plane security controls to protect its network infrastructure. What is the primary purpose of control plane security?",
+    "options": {
+      "A": "To protect data traffic between user devices",
+      "B": "To prevent unauthorized access to network devices",
+      "C": "To ensure high availability and redundancy of network services",
+      "D": "To protect the protocols and processes that manage network devices"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 50,
+    "domain": "",
+    "question": "Which of the following scenarios represents a violation of the principle of 'Confidentiality' in information security?",
+    "options": {
+      "A": "Regularly updating and patching software to address vulnerabilities",
+      "B": "Using strong encryption to protect sensitive data during transmission",
+      "C": "Sharing login credentials with a coworker to access a secure system",
+      "D": "Implementing multi-factor authentication for accessing company resources"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 51,
+    "domain": "",
+    "question": "Which statement describes the difference between security intelligence and typical firewall ACLs in preventing malicious traffic?",
+    "options": {
+      "A": "Security intelligence uses a dictionary list of keywords - which - if detected in the data payload - will trigger a security event",
+      "B": "Using intelligence feeds that provide IP addresses with known bad reputations - malicious activity is blocked before any other policy-based inspection - analysis - or traffic handling is performed",
+      "C": "ACLs provide a more granular ability to control known bad IP addresses that have a poor reputation. Security intelligence feeds are broader in scope",
+      "D": "Security intelligence feeds can be used to detect security issues in improperly configured ACLs",
+      "E": "ACLs provide superior reflexive ACL entries - based on the known IP address that has a poor reputation - which will automatically be installed in the inspection engine of NGFWs"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 52,
+    "domain": "",
+    "question": "A company is comparing cloud-based email security solutions to on-premises email security appliances. They need to make a decision based on factors such as scalability - ease of management - and upfront costs. While the cloud solution offers greater scalability and reduced administrative overhead - the on-premises appliance provides better control over data residency. How might the organization assess which solution aligns better with their specific needs and priorities?",
+    "options": {
+      "A": "Focus solely on upfront costs to determine the most cost-effective option",
+      "B": "Prioritize data residency concerns - as they outweigh other factors",
+      "C": "Create a comprehensive list of requirements and evaluate how each solution addresses them",
+      "D": "Choose the cloud solution for its scalability and trust that data residency concerns can be managed"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 53,
+    "domain": "",
+    "question": "Your company plans to use Cisco CSR 1000V while integrating Amazon Web Services cloud with its network. Because Cisco CSR 1000V is based on Cisco IOS XE Software - which two programmatic APIs can you use for network automation? (Choose two) : C) D)",
+    "options": {
+      "A": "SSH",
+      "B": "gRPC",
+      "C": "NETCONF",
+      "D": "RESTCONF",
+      "E": "NX-API REST"
+    },
+    "choose": 2,
+    "answer": [
+      "D",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 54,
+    "domain": "",
+    "question": "Which statement is correct about NetFlow and IPFIX?",
+    "options": {
+      "A": "NetFlow protocol records can be exported to an external SIEM server for analysis and correlation",
+      "B": "NetFlow and IPFIX are used to measure the bandwidth usage on a router interface",
+      "C": "NetFlow can be implemented on a Cisco router and IPFIX on an ASA firewall",
+      "D": "NetFlow is a standard IETF protocol - IPFIX is a Cisco proprietary protocol"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 55,
+    "domain": "",
+    "question": "An organization is concerned about web-based threats such as drive-by downloads and malicious code execution. Which feature of Cisco Web Security Appliance (WSA) is specifically designed to protect users from these types of threats?",
+    "options": {
+      "A": "Data Loss Prevention (DLP)",
+      "B": "Application Visibility and Control (AVC)",
+      "C": "Web Reputation Filtering",
+      "D": "Intrusion Prevention System (IPS)"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 56,
+    "domain": "",
+    "question": "A network administrator is tasked with choosing the appropriate cryptographic algorithm for securing a VPN connection. Which cryptographic property should the administrator prioritize to ensure that the encrypted data cannot be feasibly reversed into its original plaintext form?",
+    "options": {
+      "A": "Integrity",
+      "B": "Availability",
+      "C": "Symmetry",
+      "D": "Confidentiality"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 57,
+    "domain": "",
+    "question": "What is the functional purpose of the HTTP 302 response code?",
+    "options": {
+      "A": "Alert users that an attack is underway",
+      "B": "Identify a temporary URL redirection for a website and redirect the user to it",
+      "C": "Ask for authentication of the user",
+      "D": "Alert the user that the webpage is no longer available"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 58,
+    "domain": "",
+    "question": "In Stealthwatch Cloud - what is an Observation?",
+    "options": {
+      "A": "An alarm about anomalous behaviour",
+      "B": "An alarm about known risky sources connected to your network",
+      "C": "Any fact about traffic in the network that Stealthwatch Cloud deems significant enough to record",
+      "D": "An active threat moving laterally through the network - behind the firewall"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 59,
+    "domain": "",
+    "question": "If an engineering server's risk of being hacked is assigned a risk level of very high - which assessment strategy is being used?",
+    "options": {
+      "A": "Quantitative",
+      "B": "Qualitative",
+      "C": "Impact",
+      "D": "Discretionary",
+      "E": "Non-discretionary"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 60,
+    "domain": "",
+    "question": "Which three software blades are included in the Cisco AsyncOS on the Cisco WSA? (Choose three) : A) D) E)",
+    "options": {
+      "A": "Acceptable use policy",
+      "B": "Data loss prevention",
+      "C": "HTTP proxy",
+      "D": "Data security",
+      "E": "Malware defense"
+    },
+    "choose": 3,
+    "answer": [
+      "D",
+      "E",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 61,
+    "domain": "",
+    "question": "An organization is looking for an advanced endpoint protection solution that can detect and block both known and unknown threats in real-time. Which Cisco technology provides this capability by using global threat intelligence and advanced analytics?",
+    "options": {
+      "A": "Cisco Umbrella",
+      "B": "Cisco AMP for Endpoints",
+      "C": "Cisco Firepower NGFW",
+      "D": "Cisco Stealthwatch"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 62,
+    "domain": "",
+    "question": "Which two statements describe the default IPsec transform set configuration? (Choose two) : B) E) C) The default mode of the custom transform set is tunnel D) The default mode of the custom transform set is transport E) The hashing algorithm of the default transform set is SHA-1 You did not select all available correct options. Points: 1 / 2 Feedback: Incorrect!",
+    "options": {},
+    "choose": 2,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 63,
+    "domain": "",
+    "question": "How is access to user data authenticated in an OAuth framework?",
+    "options": {
+      "A": "Third-party applications provide an authentication frame or codelet from the resource provider and the user authenticates to the resource provider",
+      "B": "Third-party applications collect login credentials from the user and then use those credentials to access data from the resource provider",
+      "C": "Resource providers publish access tokens based on global user-defined policies and then third-party applications apply user-provided credentials to access the tokens",
+      "D": "Users establish an online token repository and publish access tokens to the repository for their resource providers. Third-party applications claim the tokens and use those tokens to authenticate to the resource provider"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 64,
+    "domain": "",
+    "question": "By what means is the retrospective security in AMP for Endpoints provided by? B) Inspection engines C) AMP connector Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 65,
+    "domain": "",
+    "question": "Which three social engineering statements are correct? (Choose three) : A) B) D)",
+    "options": {
+      "A": "Social engineering largely leverages most people's 'good nature' and desire to help to obtain the information that is needed",
+      "B": "Social engineering can be achieved through seemingly normal situations or appearances to obtain access to resources or physical locations otherwise off-limits to personnel",
+      "C": "Social engineering is easy to spot and should be called out immediately in front of everyone to unveil a fraud",
+      "D": "Domains that are registered with dynamic DNS or fast-flux DNS services to keep the domain and IP addresses frequently rotating to prevent detection by scanning tools",
+      "E": "Social engineering is not a security threat"
+    },
+    "choose": 3,
+    "answer": [
+      "A",
+      "D",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 66,
+    "domain": "",
+    "question": "A company is considering implementing private VLANs (PVLANs) as a Layer 2 data plane security control. What advantage does PVLAN provide?",
+    "options": {
+      "A": "PVLANs allow devices within the same VLAN to communicate directly",
+      "B": "PVLANs reduce the need for VLAN segmentation",
+      "C": "PVLANs isolate devices within the same VLAN from each other",
+      "D": "PVLANs eliminate the need for MAC address filtering"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 67,
+    "domain": "",
+    "question": "Which statement accurately describes inaccessible authentication bypass? B) Once a port is put into the critical VLAN - it cannot be re-initialized without bouncing the port switch puts the port into the critical authentication state D) Inaccessible authentication bypass feature works well with low-impact 802.1X deployment mode Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 68,
+    "domain": "",
+    "question": "What are the three threats to a vulnerable application during a buffer overflow attack? (Choose three) : A) B) C)",
+    "options": {
+      "A": "Corruption of data",
+      "B": "Crash the application",
+      "C": "Execution of malicious code",
+      "D": "Iframe injection",
+      "E": "Cross-site-scripting execution"
+    },
+    "choose": 3,
+    "answer": [
+      "B",
+      "C",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 69,
+    "domain": "",
+    "question": "A company's security team is evaluating the deployment of Cisco Stealthwatch Enterprise. What advantage does Stealthwatch provide over traditional signature-based security solutions?",
+    "options": {
+      "A": "Stealthwatch offers real-time traffic analysis without the need for updates",
+      "B": "Stealthwatch uses signature-based detection to identify known threats",
+      "C": "Stealthwatch can detect and alert on unknown threats and insider threats",
+      "D": "Stealthwatch is only effective for analysing internal network traffic"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 70,
+    "domain": "",
+    "question": "Which solution can be used to mitigate ARP attacks in non-DHCP environments?",
+    "options": {
+      "A": "ARP inspection to validate the ARP packets using the IP Device Tracking feature",
+      "B": "ARP inspection to validate the ARP packets using the ARP snooping database",
+      "C": "ARP inspection to validate the ARP packets using the CAM and routing tables",
+      "D": "ARP inspection to validate the ARP packets using the user-configured ARP ACL"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 71,
+    "domain": "",
+    "question": "What is the difference between DevOps and SecDevOps?",
+    "options": {
+      "A": "DevOps is a deliberate effort to align the application development team with the application operations team - while SecDevOps introduces additional processes within the framework - to mitigate the risk that the CI/CD operational tempo will compromise application security",
+      "B": "DevOps is a deliberate effort to align the application development team with the application operations team - while SecDevOps introduces security layers to protect the data in the rest of the application development code",
+      "C": "DevOps is a design methodology to incorporate operational feedback into the software development lifecycle - while SecDevOps is a security-centric approach to application design that places application security at the centre of every application design",
+      "D": "DevOps is a CI/CD framework - while SecDevOps is a CASB framework"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 72,
+    "domain": "",
+    "question": "Which two actions are needed on a Cisco WLC in order to configure a wireless CWA? (Choose two) : A) D)",
+    "options": {
+      "A": "Enable Cisco ISE NAC state on the guest WLAN",
+      "B": "Enable RADIUS NAC state on the guest WLAN",
+      "C": "Configure redirect ACL to deny DHCP - DNS - and traffic to Cisco ISE",
+      "D": "Configure redirect ACL to permit DHCP - DNS - and traffic to Cisco ISE",
+      "E": "Set Layer 3 security on the WLAN to web authentication"
+    },
+    "choose": 2,
+    "answer": [
+      "D",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 73,
+    "domain": "",
+    "question": "An organization wants to implement a solution that enforces access policies based on user identity - device type - and security posture. Which Cisco technology provides this capability - allowing the organization to dynamically control network access?",
+    "options": {
+      "A": "Network Admission Control (NAC)",
+      "B": "Network Address Translation (NAT)",
+      "C": "Intrusion Prevention System (IPS)",
+      "D": "Virtual LAN (VLAN)"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 74,
+    "domain": "",
+    "question": "Which Cisco SDN solution can you centrally manage using a Cisco vManage console?",
+    "options": {
+      "A": "Cisco SD-Access",
+      "B": "Cisco SD-WAN",
+      "C": "Cisco SD-Branch",
+      "D": "Cisco SD-Data"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 75,
+    "domain": "",
+    "question": "On the Cisco ASA appliance - which of the following are two valid options for users to select a connection profile - when connecting to the VPN? (Choose two) : B) C)",
+    "options": {
+      "A": "Select a connection profile from a drop-down menu after authentication",
+      "B": "Select a connection profile from a drop-down menu before authentication - but after connecting to the VPN headend",
+      "C": "Enter connection profile alias as a part of URL inside Cisco AnyConnect Secure Mobility Client",
+      "D": "Enter connection profile alias as a part of a username inside Cisco AnyConnect Secure Mobility Client",
+      "E": "Enter connection profile alias as a part of domain name inside Cisco AnyConnect Secure Mobility Client"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 76,
+    "domain": "",
+    "question": "Which option is configured inside a connection profile configuration on the Cisco ASA?",
+    "options": {
+      "A": "Authentication method",
+      "B": "Split tunneling",
+      "C": "IP filter",
+      "D": "Allowed VPN protocols"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 77,
+    "domain": "",
+    "question": "Which three activities does the vulnerability assessment process typically include? (Choose three) : A) B) C)",
+    "options": {
+      "A": "Device discovery",
+      "B": "Service enumeration",
+      "C": "Validation",
+      "D": "Reimaging the infected hosts",
+      "E": "Patching the software and firmware"
+    },
+    "choose": 3,
+    "answer": [
+      "A",
+      "C",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 78,
+    "domain": "",
+    "question": "Which statement best describes the difference between STIX and TAXII?",
+    "options": {
+      "A": "STIX is a language used to share Cyber Threat Intelligence (CTI) - while TAXII is a protocol used to carry STIX threat intelligence information",
+      "B": "TAXII is a language used to share Cyber Threat Intelligence (CTI) - while STIX is a protocol used to carry STIX threat intelligence information",
+      "C": "TAXII is a protocol controlled by Cisco Talos Intelligence Group - while STIX is a protocol used to carry STIX threat intelligence information",
+      "D": "TAXII is a language used to share Cyber Threat Intelligence (CTI) - while STIX is a protocol used to carry STIX threat intelligence information and controlled by Cisco Talos Intelligence Group"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 79,
+    "domain": "",
+    "question": "A company is considering the deployment of Cisco Umbrella to protect its users from internet-based threats. The organization is concerned about the potential impact on network performance due to the added DNS filtering. What aspect of Cisco Umbrella's architecture might help mitigate this concern?",
+    "options": {
+      "A": "Global Anycast Network",
+      "B": "Inline Intrusion Prevention",
+      "C": "Deep Packet Inspection (DPI)",
+      "D": "DHCP proxy"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 80,
+    "domain": "",
+    "question": "Which three options are available topology types when you configure IPsec VPN using Cisco FMC? (Choose three) : B) C) E)",
+    "options": {
+      "A": "Site-to-site",
+      "B": "Hub and spoke",
+      "C": "Point-to-point",
+      "D": "Partial mesh",
+      "E": "Full mesh"
+    },
+    "choose": 3,
+    "answer": [
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 81,
+    "domain": "",
+    "question": "An organization is looking to enhance its cloud security by monitoring network traffic - detecting anomalies - and identifying potential threats in its cloud environment. Which Cisco solution provides this functionality by using machine learning and behavioural analytics specifically designed for the cloud?",
+    "options": {
+      "A": "Cisco Stealthwatch Enterprise",
+      "B": "Cisco Firepower NGFW",
+      "C": "Cisco Stealthwatch Cloud",
+      "D": "Cisco AMP for Endpoints"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 82,
+    "domain": "",
+    "question": "You plan to automate operations on the Cisco devices in your company's network infrastructure using scripting for network tasks. Which two options are on-box automation and scripting mechanisms that are pre-built into the NOS of various Cisco platforms? (Choose two) : A) D)",
+    "options": {
+      "A": "TCL",
+      "B": "RESTCONF",
+      "C": "NETCONF",
+      "D": "Python",
+      "E": "DevOps tools"
+    },
+    "choose": 2,
+    "answer": [
+      "D",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 83,
+    "domain": "",
+    "question": "A company's Chief Information Security Officer (CISO) is tasked with assessing the effectiveness of the organization's security measures. Which of the following evaluation techniques would be most appropriate for determining the potential impact and severity of security incidents?",
+    "options": {
+      "A": "Penetration testing to identify vulnerabilities and exploit weaknesses",
+      "B": "Risk assessment to identify assets - threats - vulnerabilities - and potential impacts",
+      "C": "Security awareness training to educate employees about phishing attacks",
+      "D": "Incident response planning to outline steps for handling security breaches"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 84,
+    "domain": "",
+    "question": "Which statement describes the Cisco Firepower IDS inline tap mode?",
+    "options": {
+      "A": "To deploy Cisco Firepower NGFW where it will block only high-critical events",
+      "B": "To ensure that if one interface goes down in an inline set - the other interface is also taken down",
+      "C": "To have an inline set act as a tap - a copy of the traffic is analysed",
+      "D": "IDS inline tap mode is supported only in the Cisco Firepower NGFW transparent mode"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 85,
+    "domain": "",
+    "question": "Which option is a property of SVTIs?",
+    "options": {
+      "A": "Support for dynamic routing protocols",
+      "B": "Non-intuitive configuration syntax",
+      "C": "Zero-touch provisioning of new spokes",
+      "D": "Use GRE encapsulation"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 86,
+    "domain": "",
+    "question": "Which option is a property of an asymmetric encryption algorithms?",
+    "options": {
+      "A": "Asymmetric algorithms are much faster than symmetric algorithms",
+      "B": "Asymmetric algorithms can be easily hardware-accelerated",
+      "C": "Asymmetric algorithms are generally used for bulk encryption",
+      "D": "Asymmetric algorithms are much slower than symmetric algorithms",
+      "E": "With asymmetric algorithms - key management tends to be more complex than with symmetric algorithms"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 87,
+    "domain": "",
+    "question": "Which statement regarding the device and file trajectory is correct?",
+    "options": {
+      "A": "Device trajectory displays life cycle of a file in your organization across all endpoints",
+      "B": "File trajectory displays processes - files - network connections - and IOCs on a device Missed C) File trajectory is used to displayed inside the AMP connector Incorrect answer D) File trajectory displays life cycle of a file in your organization across all endpoints"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 88,
+    "domain": "",
+    "question": "Which client options are available for off-network clients? (Choose two) : B) D)",
+    "options": {
+      "A": "Cisco AMP client",
+      "B": "Cisco Umbrella Roaming Client",
+      "C": "Cisco AnyConnect Secure Mobility Client",
+      "D": "Cisco Umbrella Roaming Security module for Cisco AnyConnect Secure Mobility Client",
+      "E": "ISE Posture module for Cisco AnyConnect Secure Mobility Client"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 89,
+    "domain": "",
+    "question": "Which two options define scalability and elasticity? (Choose two) : A) C)",
+    "options": {
+      "A": "Provisioning cloud resources rapidly",
+      "B": "Better reliability",
+      "C": "Decommissioning cloud resources quickly after they are no longer needed",
+      "D": "Better visibility into cloud usage",
+      "E": "More computing power"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 90,
+    "domain": "",
+    "question": "Which three strategies can be used for implementing SenderBase protection? (Choose three) : B) C) E)",
+    "options": {
+      "A": "Neutral",
+      "B": "Conservative",
+      "C": "Moderate",
+      "D": "Optimized",
+      "E": "Aggressive"
+    },
+    "choose": 3,
+    "answer": [
+      "E",
+      "C",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 91,
+    "domain": "",
+    "question": "Which statement describes the concept of a connection profile inside Cisco ASDM?",
+    "options": {
+      "A": "It is the same as a tunnel group and defines authentication parameters Missed B) It is a logical construct that combines all required IPsec components",
+      "C": "It is the same as a group policy and defines VPN session parameters Incorrect answer D) It is a logical construct that combines all required IPsec components - routing configuration - and NAT exemption configuration"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 92,
+    "domain": "",
+    "question": "An organization wants to gain insights into its network traffic patterns - identify anomalies - and detect potential security breaches. Which traffic telemetry method involves collecting and analysing data from network devices in real-time to achieve these goals?",
+    "options": {
+      "A": "Flow analysis",
+      "B": "SNMP (Simple Network Management Protocol) polling",
+      "C": "Configuration backups",
+      "D": "Remote Access VPN"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 93,
+    "domain": "",
+    "question": "A user receives an email that appears to be from a legitimate source - asking them to click on a link and provide their login credentials to update their account information. However - the link leads to a fake website designed to steal the user's credentials. Which type of attack does this scenario describe?",
+    "options": {
+      "A": "Cross-Site Scripting (XSS) attack",
+      "B": "Man-in-the-Middle (MitM) attack",
+      "C": "Phishing attack",
+      "D": "SQL injection attack"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 94,
+    "domain": "",
+    "question": "What is the most common way to deploy Cisco Umbrella?",
+    "options": {
+      "A": "Update DNS settings in a DHCP scope",
+      "B": "Deploy Cisco Umbrella Virtual Appliance",
+      "C": "Deploy Cisco Umbrella Roaming Client",
+      "D": "Configure firewall to redirect DNS requests to Cisco Umbrella cloud"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 95,
+    "domain": "",
+    "question": "Which network device plane is responsible for device administration - provisioning the configuration - and monitoring the device operation?",
+    "options": {
+      "A": "Management plane",
+      "B": "Data plane",
+      "C": "Control plane",
+      "D": "Signalling plane"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 96,
+    "domain": "",
+    "question": "What is the organizational benefit of incorporating CVSS into risk analysis?",
+    "options": {
+      "A": "It gives insight into the result of a compromise or attack",
+      "B": "It lowers the threat to detection time",
+      "C": "It is a structured method to assist with prioritizing a vulnerability response",
+      "D": "It makes the engineer read more information than they would have on their own"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 97,
+    "domain": "",
+    "question": "Which two of the following are site-to-site VPN properties? (Choose two) : C) D)",
+    "options": {
+      "A": "SSL technology",
+      "B": "SSH technology",
+      "C": "IPsec technology",
+      "D": "Cryptographic traffic protection",
+      "E": "Routing protocols for traffic isolation"
+    },
+    "choose": 2,
+    "answer": [
+      "C",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 98,
+    "domain": "",
+    "question": "An organization is implementing management plane security controls to protect its network devices from unauthorized access and configuration changes. Which security control ensures that only authenticated administrators can access management interfaces?",
+    "options": {
+      "A": "Network segmentation",
+      "B": "Access control lists (ACLs)",
+      "C": "SNMPv3 (Simple Network Management Protocol)",
+      "D": "Role-based access control (RBAC)"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 99,
+    "domain": "",
+    "question": "A company is setting up a point-to-point IPsec VPN using Virtual Tunnel Interfaces (VTIs) on Cisco routers. The security team needs to decide whether to use route-based or policy-based IPsec VPN. Which consideration might lead them to choose route-based VPN?",
+    "options": {
+      "A": "Need for granular traffic filtering using access control lists (ACLs) Incorrect answer B) Desire for simpler configuration and management Missed C) Requirement to support multiple VPN connections on the same interface",
+      "D": "Preference for using static routing instead of dynamic routing protocols"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 100,
+    "domain": "",
+    "question": "An organization is implementing security controls to protect its cloud infrastructure and applications from unauthorized access and data breaches. Which security control is specifically designed to manage and control user identities and permissions in the cloud environment?",
+    "options": {
+      "A": "Intrusion Detection System (IDS)",
+      "B": "Data Loss Prevention (DLP)",
+      "C": "Identity and Access Management (IAM)",
+      "D": "Web Application Firewall (WAF)"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 101,
+    "domain": "",
+    "question": "Which authentication protocol uses a challenge-response sequence of messages exchanged between the Cisco WSA and the user?",
+    "options": {
+      "A": "Basic",
+      "B": "Kerberos",
+      "C": "NTLMSSP",
+      "D": "WCCP"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 102,
+    "domain": "",
+    "question": "Which statement correctly describes Cisco Umbrella Investigate?",
+    "options": {
+      "A": "Cisco Umbrella virtual appliance which provides internal IP address visibility",
+      "B": "Cisco Umbrella client which protects off-network clients",
+      "C": "Policy component inside Cisco Umbrella dashboard",
+      "D": "A dashboard inside Cisco Umbrella which provides contextual data to perform security analyses and predict future threats"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 103,
+    "domain": "",
+    "question": "Which HIPS technology detects intrusive activity by comparing traffic to a set of rules called signatures?",
+    "options": {
+      "A": "Anomaly based IPS",
+      "B": "Policy-based IPS",
+      "C": "Signature-based IPS",
+      "D": "Heuristic-based IPS"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 104,
+    "domain": "",
+    "question": "You are planning to implement IP source guard on a Cisco IOS switch in your company - to all ports on which DHCP snooping is enabled. Which command should you use to enable IP source guard with IP and MAC address verification on the ports?",
+    "options": {
+      "A": "Ip verify source",
+      "B": "Ip verify source IP-MAC",
+      "C": "Ip verify MAC-IP port-security",
+      "D": "Ip verify source port-security"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 105,
+    "domain": "",
+    "question": "A company's security team is evaluating the deployment of a Cisco ASA firewall and is considering whether to implement it in transparent mode or routed mode. They need to maintain separate broadcast domains for different departments while applying security policies at the firewall. Which mode would be more suitable for this scenario?",
+    "options": {
+      "A": "Transparent mode - because it allows the firewall to act as a bridge and separate broadcast domains",
+      "B": "Routed mode - because it enables the firewall to perform routing and enforce security policies between different departments",
+      "C": "Both modes would achieve the same goal - but transparent mode offers better performance",
+      "D": "Both modes would achieve the same goal - but routed mode provides more granular control over traffic"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 106,
+    "domain": "",
+    "question": "Which statement correctly describes IKEv2?",
+    "options": {
+      "A": "It uses a bi-directional authentication method",
+      "B": "It uses two phases to establish IKE SAs and IPsec SAs",
+      "C": "It runs on UDP port 3500",
+      "D": "It runs on UDP port 500"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 107,
+    "domain": "",
+    "question": "A company is evaluating the deployment of Network Access Control (NAC) to enhance its network security. One of the concerns raised is the potential impact on network performance due to the additional authentication steps. How might NAC mitigate this concern?",
+    "options": {
+      "A": "NAC only requires authentication for wireless connections - not wired connections",
+      "B": "NAC integrates with DHCP to streamline the authentication process",
+      "C": "NAC uses role-based access controls to minimize the need for authentication",
+      "D": "NAC can leverage cached authentication credentials to expedite subsequent logins"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 108,
+    "domain": "",
+    "question": "Which three options can be used as membership criteria in the Access policy groups? (Choose three) : B) D) E)",
+    "options": {
+      "A": "Anti-Malware and reputation",
+      "B": "Identification profiles and users Incorrect answer C) Objects Missed D) URL categories",
+      "E": "User agents You did not select all available correct options."
+    },
+    "choose": 3,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 109,
+    "domain": "",
+    "question": "Which two options represent valid RADIUS messages? (Choose two) : A) E)",
+    "options": {
+      "A": "Access-Request",
+      "B": "Request",
+      "C": "Challenge",
+      "D": "Reject",
+      "E": "Access-Accept"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "E"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 110,
+    "domain": "",
+    "question": "Which system-provided base IPS policy is most stringent?",
+    "options": {
+      "A": "Security over Connectivity",
+      "B": "Connectivity over Security",
+      "C": "Balanced Security and Connectivity",
+      "D": "Security",
+      "E": "Connectivity"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 111,
+    "domain": "",
+    "question": "What is Cisco SAFE?",
+    "options": {
+      "A": "A design methodology to ensure security at multiple places in the network",
+      "B": "A standards-based protocol for analysing encrypted traffic",
+      "C": "A standards-based organization within the IEEE that prescribes secure network architectures"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 112,
+    "domain": "",
+    "question": "What are the two general categories of CASB architectures?",
+    "options": {
+      "A": "Inline and out-of-band",
+      "B": "Online and proxy",
+      "C": "Log-based and proxy",
+      "D": "API-based and log-based"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 113,
+    "domain": "",
+    "question": "A company's security team is considering the deployment of Unicast Reverse Path Forwarding (uRPF) as a Layer 3 data plane security control. What is the main purpose of uRPF?",
+    "options": {
+      "A": "To prevent IP spoofing by verifying the source IP address of incoming packets",
+      "B": "To prevent Denial-of-Service (DoS) attacks by rate limiting incoming traffic",
+      "C": "To ensure the integrity of BGP (Border Gateway Protocol) routing updates",
+      "D": "To encrypt and authenticate Layer 3 network traffic"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 114,
+    "domain": "",
+    "question": "At which three points in time should you defend your network? (Choose three) : A) B) C)",
+    "options": {
+      "A": "Before a network attack occurs",
+      "B": "During an active network attack",
+      "C": "After a network attack",
+      "D": "When your data is in transit between on-premise and the cloud",
+      "E": "When your data is in transit between the cloud and your customer"
+    },
+    "choose": 3,
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 115,
+    "domain": "",
+    "question": "A company's security team is discussing the shared responsibility model for cloud security. What aspect of cloud security is the organization responsible for in the shared responsibility model?",
+    "options": {
+      "A": "Physical security of data centres",
+      "B": "Security of the underlying cloud infrastructure",
+      "C": "Security configuration of cloud services and applications",
+      "D": "Patching and updates of the cloud platform"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 116,
+    "domain": "",
+    "question": "Which violation action allows the port security feature to deny offending frames and generate an SNMP trap or syslog notification message at the same time?",
+    "options": {
+      "A": "Shutdown",
+      "B": "Restrict",
+      "C": "Protect",
+      "D": "Deny"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 117,
+    "domain": "",
+    "question": "A security administrator is configuring remote access SSL VPN on a Cisco Firepower Next-Generation Firewall (NGFW). The administrator has the option to choose between Full Tunnel and Split Tunnel modes. What security consideration might lead them to prefer Split Tunnel mode? C) Better support for accessing internal resources D) Simplified client configuration Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 118,
+    "domain": "",
+    "question": "A company's security team is evaluating the deployment of CoPP (Control Plane Policing) as a management plane security control. What is the primary purpose of CoPP?",
+    "options": {
+      "A": "To prevent unauthorized access to management interfaces",
+      "B": "To prioritize control plane traffic over data plane traffic",
+      "C": "To limit the rate of control plane traffic to prevent resource exhaustion",
+      "D": "To encrypt control plane traffic to protect it from interception"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 119,
+    "domain": "",
+    "question": "Which two statements are applicable to SDN? (Choose two) : C) E)",
+    "options": {
+      "A": "Ultimate solution for all networking challenges",
+      "B": "A mandate for all network engineers to become programmers",
+      "C": "Decouples the control and data planes - while intelligence and state are logically centralized",
+      "D": "A concept that leverages the existing network infrastructure for centralized control",
+      "E": "A concept that leverages programmatic interfaces to enable external systems to influence network provisioning - control - and operations"
+    },
+    "choose": 2,
+    "answer": [
+      "E",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 120,
+    "domain": "",
+    "question": "A company is deploying remote access SSL VPN on a Cisco ASA firewall. Which component of the SSL VPN solution is responsible for verifying the identity of remote users before granting access to internal resources?",
+    "options": {
+      "A": "SSL encryption",
+      "B": "Clientless VPN portal",
+      "C": "SSL certificate",
+      "D": "AAA server"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 121,
+    "domain": "",
+    "question": "Which severity level on Cisco ASA is the most urgent?",
+    "options": {
+      "A": "Critical",
+      "B": "Errors",
+      "C": "Warnings",
+      "D": "Alerts"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 122,
+    "domain": "",
+    "question": "Which Stealthwatch index tracks the hosts performing suspicious activities that indicate the network could be under some form of attack?",
+    "options": {
+      "A": "Target index",
+      "B": "File sharing index",
+      "C": "Concern index",
+      "D": "Host index"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 123,
+    "domain": "",
+    "question": "Which two possibilities are the most common key exchange options? (Choose two) : B) C)",
+    "options": {
+      "A": "Symmetric encryption",
+      "B": "DH algorithm",
+      "C": "PKI",
+      "D": "SHA-1 algorithm",
+      "E": "SHA-2 algorithm"
+    },
+    "choose": 2,
+    "answer": [
+      "C",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 124,
+    "domain": "",
+    "question": "Where are infrastructure ACLs typically applied?",
+    "options": {
+      "A": "Output direction at all the network edge routers",
+      "B": "Input direction at all the network core routers",
+      "C": "Output direction at all the network core routers",
+      "D": "Input direction at all the network edge routers"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 125,
+    "domain": "",
+    "question": "An organization is migrating its applications and data to a cloud environment. The security team is concerned about potential attacks that target cloud resources and services. Which type of cloud attack involves overwhelming a cloud service with excessive traffic to disrupt its availability?",
+    "options": {
+      "A": "Data breach",
+      "B": "Denial-of-Service (DoS)",
+      "C": "Malware infection",
+      "D": "Insider threat"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 126,
+    "domain": "",
+    "question": "A network engineer is configuring a Virtual Tunnel Interface (VTI) on a Cisco router for an IPsec VPN connection. Which benefit does VTI offer in this context compared to traditional crypto maps?",
+    "options": {
+      "A": "Improved scalability for large VPN deployments",
+      "B": "Simplified configuration with dynamic IP addressing",
+      "C": "Enhanced support for SSL VPN connections",
+      "D": "Stronger encryption algorithms for data protection"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 127,
+    "domain": "",
+    "question": "Which one of the following statements describes the primary IPS mechanism used in rule-based detection to help stop attackers from compromising systems?",
+    "options": {
+      "A": "The geolocation database can be installed to filter specific countries - based on reputation scores",
+      "B": "IPS rule-sets evaluate various network activities over an extended period - allowing rule-based detection configuration to automatically update its rule-set",
+      "C": "Rule-based detection - using updated IPS signature files - can be leveraged to stop attackers from malicious activity",
+      "D": "Complex ACLs can be applied to the WAN-facing interfaces - allowing rule-based detection to inspect traffic as it enters the sensor",
+      "E": "By deploying NAT on WAN-facing interfaces and working with rule-based detection methods - malicious activity can be inspected and blocked before it is sent to internal network resources"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 128,
+    "domain": "",
+    "question": "Which three options are considered as the main protocols of the IP suite? (Choose three) : A) B) C)",
+    "options": {
+      "A": "UDP",
+      "B": "TCP",
+      "C": "IP",
+      "D": "SSL"
+    },
+    "choose": 3,
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 129,
+    "domain": "",
+    "question": "Which three options are services of the Cisco Identity Services Engine? (Choose three) : A) B) C)",
+    "options": {
+      "A": "AAA",
+      "B": "Posture compliance",
+      "C": "Guest management",
+      "D": "Firewall policy enforcement",
+      "E": "Inline traffic filtering"
+    },
+    "choose": 3,
+    "answer": [
+      "A",
+      "C",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 130,
+    "domain": "",
+    "question": "What are three core 802.1X components?? (Choose three) : A) B) C)",
+    "options": {
+      "A": "802.1X supplicant",
+      "B": "Authentication server",
+      "C": "Authenticator",
+      "D": "NAC server",
+      "E": "AAA client"
+    },
+    "choose": 3,
+    "answer": [
+      "B",
+      "C",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 131,
+    "domain": "",
+    "question": "You want to make sure that you can detect if data were changed in transit. Which two options would you use to accomplish this task? (Choose two) : A) D)",
+    "options": {
+      "A": "Digital signature",
+      "B": "Symmetric encryption",
+      "C": "Asymmetric encryption",
+      "D": "HMAC"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 132,
+    "domain": "",
+    "question": "What is the difference between brute-forcing and password spraying?",
+    "options": {
+      "A": "Brute-forcing refers to extracting AES keys from memory - and password spraying is attempting all possible passwords from a dictionary of common passwords",
+      "B": "Brute-forcing is calculating the most likely password for a user - based on the user's birthday - anniversary - and children's birthdays and password spraying means trying every password based on a dictionary",
+      "C": "Brute-forcing is coercing users to give you their password - and password spraying refers to gathering credentials through phishing campaigns",
+      "D": "Brute-forcing is an attempt of every possible password on certain accounts - and password spraying is attempting only a couple of common passwords on every possible account"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 133,
+    "domain": "",
+    "question": "A multinational corporation needs to establish secure connections between its headquarters and branch offices located in different countries. Which type of VPN deployment would be most suitable to meet the organization's requirements?",
+    "options": {
+      "A": "Remote Access VPN",
+      "B": "Site-to-Site VPN",
+      "C": "Clientless VPN",
+      "D": "SSL VPN"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 134,
+    "domain": "",
+    "question": "Which three components are used in the Cisco ASA MPF configuration? (Choose three) : A) B) D)",
+    "options": {
+      "A": "Class maps",
+      "B": "Policy maps",
+      "C": "Access control lists",
+      "D": "Service policy",
+      "E": "TCP and UDP ports"
+    },
+    "choose": 3,
+    "answer": [
+      "A",
+      "D",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 135,
+    "domain": "",
+    "question": "Which three options are true when the Cisco ASA appliance is set to operate in multiple-context mode? (Choose three) : A) B) E)",
+    "options": {
+      "A": "Multiple-context mode is beneficial for an enterprise that wants to keep the administration of different departments completely separate and independent Missed B) When a user logs into the system execution space - they are able to create new contexts",
+      "C": "There is support for OSPFv3 - RIP - and multicast routing Incorrect answer D) All security contexts must operate in the same firewall mode",
+      "E": "There is support for static routing - access control features - security modules - and management features You did not select all available correct options."
+    },
+    "choose": 3,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 136,
+    "domain": "",
+    "question": "Which two items can be found in a host profile? (Choose two) : A) D)",
+    "options": {
+      "A": "IP address of the host",
+      "B": "Ability to control that host's desktop via RDP session",
+      "C": "Ability to control that host's desktop via SSH session",
+      "D": "Operating system of the host",
+      "E": "List of all interfaces and network interface controllers"
+    },
+    "choose": 2,
+    "answer": [
+      "D",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 137,
+    "domain": "",
+    "question": "When configuring DHCP snooping - which ports should be configured as untrusted ports?",
+    "options": {
+      "A": "All access ports",
+      "B": "All inter-switch trunk ports",
+      "C": "All ports that are connecting toward the DHCP server",
+      "D": "All access ports - except the port to which the DHCP server is directly connected"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 138,
+    "domain": "",
+    "question": "Which Cisco Stealthwatch optional component provides an overlay solution for generating NetFlow data for legacy network infrastructure devices not capable of producing line-rate - unsampled NetFlow data?",
+    "options": {
+      "A": "SMC",
+      "B": "UDP Director",
+      "C": "Flow Collector",
+      "D": "Flow sensor"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 139,
+    "domain": "",
+    "question": "Which feature protects against a rogue Cisco switch to overtake the role of the root bridge in the topology?",
+    "options": {
+      "A": "PortFast",
+      "B": "STP",
+      "C": "Root guard",
+      "D": "BPDU guard"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 140,
+    "domain": "",
+    "question": "An attacker used social engineering to gain administrative access to a router - then altered the router image. How can an analyst detect that the router's image has been altered?",
+    "options": {
+      "A": "By verifying the router's image digital signature hash",
+      "B": "By verifying the router's running configurations",
+      "C": "By verifying the router's image creation date",
+      "D": "By verifying the router's image version"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 141,
+    "domain": "",
+    "question": "A company's security team is evaluating various endpoint security solutions. They want to ensure that users' devices are compliant with security policies before granting network access. Which endpoint security technology would be most effective for enforcing compliance checks?",
+    "options": {
+      "A": "Antivirus/Antimalware",
+      "B": "Data Loss Prevention (DLP)",
+      "C": "Intrusion Detection System (IDS)",
+      "D": "Network Access Control (NAC)"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 142,
+    "domain": "",
+    "question": "Which three companies are public cloud providers? (Choose three) : A) C) E)",
+    "options": {
+      "A": "Amazon (Amazon Web Services)",
+      "B": "Facebook",
+      "C": "Google Cloud",
+      "D": "Walmart",
+      "E": "Rackspace"
+    },
+    "choose": 3,
+    "answer": [
+      "C",
+      "A",
+      "E"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 143,
+    "domain": "",
+    "question": "An organization's cybersecurity team discovers that several company laptops have been compromised after employees connected to a public Wi-Fi network while traveling. The compromised laptops now exhibit abnormal behaviour - including data exfiltration and unauthorized remote access. What defensive measure could have significantly reduced the risk of this type of attack?",
+    "options": {
+      "A": "Implementing intrusion detection systems (IDS)",
+      "B": "Deploying a network-based firewall",
+      "C": "Enforcing a strong password policy",
+      "D": "Requiring the use of a virtual private network (VPN) for remote connections"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 144,
+    "domain": "",
+    "question": "An organization is considering the deployment of a Cisco Firepower Next-Generation Firewall (NGFW) to enhance its network security. The security team wants to identify and block threats in real-time by analysing network traffic and applying advanced security intelligence. Which feature of the Cisco Firepower NGFW would be most effective in achieving this goal?",
+    "options": {
+      "A": "VPN (Virtual Private Network) capabilities",
+      "B": "Application Visibility and Control (AVC)",
+      "C": "Web Application Firewall (WAF)",
+      "D": "Network Address Translation (NAT) functionality"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 145,
+    "domain": "",
+    "question": "An organization is concerned about Layer 2 attacks that can disrupt network operations by causing MAC address flooding and CAM table exhaustion. Which security control is specifically designed to mitigate these types of attacks?",
+    "options": {
+      "A": "MAC address filtering",
+      "B": "Port security",
+      "C": "VLAN segmentation",
+      "D": "IP source guard"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 146,
+    "domain": "",
+    "question": "A company's network team is evaluating the benefits of SDN for their organization. What advantage does SDN offer over traditional networking architectures in terms of network provisioning and scalability?",
+    "options": {
+      "A": "SDN requires less initial investment in networking hardware",
+      "B": "SDN provides faster and automated provisioning of network resources",
+      "C": "SDN eliminates the need for network monitoring and management",
+      "D": "SDN offers better compatibility with legacy networking devices"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 147,
+    "domain": "",
+    "question": "A company's security team is evaluating the deployment of control plane policing as a control plane security measure. What is the main purpose of control plane policing?",
+    "options": {
+      "A": "To control the flow of data traffic between network devices",
+      "B": "To prioritize control plane traffic over data plane traffic",
+      "C": "To limit the rate of control plane traffic to prevent resource exhaustion",
+      "D": "To encrypt control plane traffic to protect it from interception"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 148,
+    "domain": "",
+    "question": "A network administrator notices that certain hosts on the network are unable to establish connections with external servers. After investigating - it's discovered that the network traffic on port 80 is being flooded with a massive number of requests - overwhelming the network and causing the connectivity issues. Which type of attack is most likely occurring?",
+    "options": {
+      "A": "Distributed Denial of Service (DDoS) attack",
+      "B": "Man-in-the-Middle (MitM) attack",
+      "C": "SQL Injection attack",
+      "D": "Phishing Attack"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 149,
+    "domain": "",
+    "question": "Which three devices can use uRPF as the first line of defense in a network? (Choose three) : C) D) E)",
+    "options": {
+      "A": "Web server",
+      "B": "Cisco UCS server",
+      "C": "Cisco ASA",
+      "D": "Cisco NGFW",
+      "E": "Cisco IOS Layer 3 switch"
+    },
+    "choose": 3,
+    "answer": [
+      "C",
+      "D",
+      "E"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 150,
+    "domain": "",
+    "question": "Which EAP method works only for server authentication?",
+    "options": {
+      "A": "EAP-MSCHAPv2",
+      "B": "EAP-TLS",
+      "C": "EAP-GTC",
+      "D": "PEAP"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 151,
+    "domain": "",
+    "question": "A company wants to enhance its network security by ensuring that only authorized devices can connect to the corporate network. Which technology would best address this requirement by allowing administrators to define policies based on device attributes such as MAC addresses - device type - and compliance status?",
+    "options": {
+      "A": "Intrusion Detection System (IDS)",
+      "B": "Network Address Translation (NAT)",
+      "C": "Virtual Local Area Network (VLAN)",
+      "D": "Network Access Control (NAC)"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 152,
+    "domain": "",
+    "question": "Which statements regarding AMP for Endpoints management is correct?",
+    "options": {
+      "A": "Policies are configured inside the AMP connector",
+      "B": "Policies for different operating systems support the same set of features",
+      "C": "Policy changes require manual administrator intervention to deploy changes to endpoints",
+      "D": "Policies are configured inside the AMP management console"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 153,
+    "domain": "",
+    "question": "A company is considering the deployment of NetFlow as a traffic telemetry method. What advantage does NetFlow offer over traditional packet capture methods for network traffic analysis?",
+    "options": {
+      "A": "NetFlow provides more detailed packet-level information Missed B) NetFlow offers real-time traffic analysis without impacting network performance Incorrect answer C) NetFlow requires less storage space for recorded traffic data",
+      "D": "NetFlow can analyse encrypted traffic without decryption"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 154,
+    "domain": "",
+    "question": "Why does ETA for Cryptographic Compliance Audit (ETA-CA) not require the SPLT?",
+    "options": {
+      "A": "ETA-CA only needs to look at the PKI negotiations - which are contained in the Initial Data Packet (IDP) - to determine which cipher suites and protocols are in use between the endpoints",
+      "B": "ETA-CA can send any encrypted data packet to the CTA cloud - and CTA will use the Global Risk Map to determine which cipher suites and protocols are in use between the endpoints",
+      "C": "Compliance Audits - such as PCI - SoX - and HIPAA - typically do not cover traffic count between secure and unsecure zones",
+      "D": "Compliance Audits - such as PCI - SoX - and HIPAA - typically do not cover traffic encryption between secure and unsecure zones"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 155,
+    "domain": "",
+    "question": "Which two authentication methods apply to the establishment process of the SSL session? : A) C)",
+    "options": {
+      "A": "Server authentication is required",
+      "B": "Client authentication is required",
+      "C": "Client authentication is optional",
+      "D": "Server authentication is optional",
+      "E": "Server and client authentication are both required"
+    },
+    "choose": 2,
+    "answer": [
+      "A",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 156,
+    "domain": "",
+    "question": "A network administrator is configuring 802.1X authentication on a Cisco switch. During the authentication process - the RADIUS server sends an Access-Reject message. What action will the switch take in response to this message?",
+    "options": {
+      "A": "Grant the device full network access",
+      "B": "Place the device in a quarantine VLAN",
+      "C": "Restart the authentication process from scratch",
+      "D": "Block the device's network access"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 157,
+    "domain": "",
+    "question": "An organization is implementing control plane security controls to protect its network infrastructure. Which type of attack is control plane security primarily focused on preventing?",
+    "options": {
+      "A": "Data exfiltration attacks",
+      "B": "Distributed Denial of Service (DDoS) attacks",
+      "C": "Insider threats",
+      "D": "Unauthorized access to management interfaces"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 158,
+    "domain": "",
+    "question": "An organization is implementing 802.1X authentication for its wired and wireless network access. Which entity is responsible for initiating the authentication process and requesting user credentials?",
+    "options": {
+      "A": "RADIUS server",
+      "B": "Supplicant",
+      "C": "Authenticator",
+      "D": "EAP server"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 159,
+    "domain": "",
+    "question": "Which option is a valid Cisco IOS and IOS XE VTI type?",
+    "options": {
+      "A": "Manual",
+      "B": "Static",
+      "C": "Downloadable",
+      "D": "Flexible"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 160,
+    "domain": "",
+    "question": "Which three control families are covered in NIST SP 800-53? (Choose three) : B) C) E)",
+    "options": {
+      "A": "Programming languages",
+      "B": "Physical and environmental protection",
+      "C": "Configuration management",
+      "D": "Vendor selection",
+      "E": "Risk assessment"
+    },
+    "choose": 3,
+    "answer": [
+      "C",
+      "E",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 161,
+    "domain": "",
+    "question": "An organization's remote employees need secure access to internal resources from various locations. The security team is evaluating different VPN solutions. Which type of VPN would provide the best balance between security and flexibility for remote access?",
+    "options": {
+      "A": "Site-to-Site VPN",
+      "B": "MPLS VPN",
+      "C": "Remote Access VPN",
+      "D": "DMVPN"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 162,
+    "domain": "",
+    "question": "A company's internal network has been compromised - and sensitive data has been stolen. The attacker gained unauthorized access by exploiting a vulnerability in a network service that was not properly patched. The incident response team is analysing the situation to prevent similar attacks in the future. Which step of the Cyber Kill Chain model is most relevant to this scenario?",
+    "options": {
+      "A": "Installation",
+      "B": "Reconnaissance",
+      "C": "Exploitation",
+      "D": "Command and Control"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 163,
+    "domain": "",
+    "question": "What does IP source guard do?",
+    "options": {
+      "A": "Statelessly matches the IP packet header or payload (or both) - based on arbitrary criteria",
+      "B": "Statefully matches the IP packet header or payload (or both) - based on arbitrary criteria",
+      "C": "Matches the IP address of a packet against the IP routing table",
+      "D": "Matches the IP address and MAC address of a packet against a DHCP binding table - IP device tracking table - or manually configured bindings"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 164,
+    "domain": "",
+    "question": "Which statement describes VPN behaviour on Cisco Firepower NGFW?",
+    "options": {
+      "A": "VPN traffic is by default allowed by ACP",
+      "B": "VPN traffic is by default exempted from NAT",
+      "C": "VPN traffic is by default denied by ACP",
+      "D": "IKEv2 IPsec is not supported"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 165,
+    "domain": "",
+    "question": "An organization is evaluating different security measures to protect its sensitive data from unauthorized access. One of the options is to implement a data encryption solution that ensures data confidentiality even if an attacker gains access to the storage medium. The organization's security team is concerned about the potential performance impact of encryption. Which aspect should they consider to mitigate this concern? C) Enforcing strict password policies D) Segmenting the network using firewalls Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 166,
+    "domain": "",
+    "question": "Which telemetry sources are supported by the Stealthwatch Cloud Private Network Monitoring appliance?",
+    "options": {
+      "A": "NetFlow only",
+      "B": "Copy of the traffic via SPAN port only",
+      "C": "IPFIX only",
+      "D": "NetFlow - IPFIX - and copy of the traffic via SPAN port"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 167,
+    "domain": "",
+    "question": "What is the Stealthwatch Enterprise mechanism that assigns index points to a host? B) Alarm D) Impact level Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 168,
+    "domain": "",
+    "question": "Which three message types can be assigned to a malicious message after being scanned by the antivirus engine? (Choose three) : B) C) E) E) Unscannable message You did not select all available correct options. Points: 1 / 3 Feedback: Incorrect!",
+    "options": {},
+    "choose": 3,
+    "answer": [
+      "B",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 169,
+    "domain": "",
+    "question": "An organization is implementing Layer 3 data plane security controls to prevent network attacks such as IP spoofing and denial-of-service (DoS). Which security control is specifically designed to filter incoming and outgoing network traffic based on IP addresses?",
+    "options": {
+      "A": "Access Control Lists (ACLs)",
+      "B": "Intrusion Prevention System (IPS)",
+      "C": "Virtual LAN (VLAN) segmentation",
+      "D": "Private Virtual Network (VPN)"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 170,
+    "domain": "",
+    "question": "Which two options are advantages of using Cisco AnyConnect Secure Mobility Client over native Microsoft Windows 10 OS supplicant? (Choose two) : B) C)",
+    "options": {
+      "A": "Lower cost",
+      "B": "Richer support for EAP methods Missed C) Support for MACsec encryption",
+      "D": "Support for IPsec encryption Incorrect answer E) Smaller management overhead You did not select all available correct options."
+    },
+    "choose": 2,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 171,
+    "domain": "",
+    "question": "How do watering hole attacks avoid detection by scanning services? that the target group of users are known to visit malware attack cannot be attributed to servers owned by the attacker C) By compromising DHCP servers of home routers so that the users will be directed to the websites that are compromised by the attacker D) By delivering email only to valid email addresses that are targeted from a specific list so that the volume of traffic stays low Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 172,
+    "domain": "",
+    "question": "What does strict uRPF do?",
+    "options": {
+      "A": "Validates the existence of the source network of the packet in the routing table and provides a method for dropping packets from unknown and therefore invalid networks",
+      "B": "Verifies that the packet is coming through the expected interface. Packets that are coming from unexpected interfaces (the RIB and FIB) are dropped",
+      "C": "Uses ACL on each interface to protect against spoofed packets",
+      "D": "Uses the multicast routing table to verify if each incoming packet has a valid source IP address"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 173,
+    "domain": "",
+    "question": "Which statement about TCP reset attacks is correct?",
+    "options": {
+      "A": "A TCP reset attack is designed to disrupt the TCP 3-way handshake",
+      "B": "A TCP reset attack terminates TCP communications between two hosts",
+      "C": "A malicious attack is always indicated when the RST bit is set to 1 in a TCP packet header",
+      "D": "None of the above"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 174,
+    "domain": "",
+    "question": "Which three actions are valid actions inside a prefilter rule? (Choose three) : B) C) E)",
+    "options": {
+      "A": "Permit",
+      "B": "Block",
+      "C": "Fastpath",
+      "D": "Drop",
+      "E": "Analyse"
+    },
+    "choose": 3,
+    "answer": [
+      "E",
+      "C",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 175,
+    "domain": "",
+    "question": "Which three options state the key email security features of Cisco ESA? (Choose three) : A) C) D)",
+    "options": {
+      "A": "Threat defense",
+      "B": "AVC",
+      "C": "Data security",
+      "D": "Manageability",
+      "E": "DCA"
+    },
+    "choose": 3,
+    "answer": [
+      "D",
+      "C",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 176,
+    "domain": "",
+    "question": "Which statement correctly describes the theory behind the command injection attacks?",
+    "options": {
+      "A": "The goal of a command injection attack is to exfiltrate data on the web server's operating system via a vulnerable web application",
+      "B": "The goal of a command injection attack is to execute arbitrary commands on the mail server",
+      "C": "The user enters arbitrary commands on the web server's OS via a vulnerable web application",
+      "D": "The goal of a command injection attack is to execute arbitrary commands on the web server's OS via a vulnerable web application"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 177,
+    "domain": "",
+    "question": "Which two options are OOB management connections? (Choose two) : A) B)",
+    "options": {
+      "A": "Firewall console connection",
+      "B": "Router management VRF connection",
+      "C": "ESA data interface - also used for management",
+      "D": "WSA in-band connection",
+      "E": "Switch SSH connection to IP phone dedicated VLAN SVI"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 178,
+    "domain": "",
+    "question": "Which two options are countermeasures that an administrator should employ to protect against DNS tunneling? (Choose two) : A) D)",
+    "options": {
+      "A": "Monitor the DNS log for suspicious activities",
+      "B": "Deny all DNS transactions",
+      "C": "Encrypt DNS communications using a hash",
+      "D": "Deploy a solution such as Cisco Umbrella to block the DNS tunneling traffic",
+      "E": "Block all DNS traffic on the firewall"
+    },
+    "choose": 2,
+    "answer": [
+      "D",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 179,
+    "domain": "",
+    "question": "Which two options are valid fields in the X.509 version 3 format of a digital certificate? (Choose two) : B) C)",
+    "options": {
+      "A": "Subject private key",
+      "B": "Subject public key",
+      "C": "Certificate expiration date",
+      "D": "CA private key",
+      "E": "CRL serial number"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 180,
+    "domain": "",
+    "question": "An organization is planning to deploy a Cisco ASA firewall to secure its network infrastructure. The IT team wants to ensure that incoming and outgoing network traffic is thoroughly inspected - and malicious activity is detected and prevented. Which feature of the Cisco ASA firewall would be best suited for this purpose?",
+    "options": {
+      "A": "NAT (Network Address Translation)",
+      "B": "VPN (Virtual Private Network) functionality",
+      "C": "IPS (Intrusion Prevention System)",
+      "D": "DMZ (Demilitarized Zone) configuration"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 181,
+    "domain": "",
+    "question": "An organization is looking to enhance its security posture by preventing users from accessing known malicious websites. Which Cisco Umbrella feature enables the organization to block user access to malicious domains before they can even establish a connection?",
+    "options": {
+      "A": "Secure Sockets Layer (SSL) decryption",
+      "B": "Intrusion Prevention System (IPS)",
+      "C": "DNS-layer security",
+      "D": "Stateful firewalling"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 182,
+    "domain": "",
+    "question": "Which TCP/IP application protocol can be used in an amplification attack by exploiting the protocol weakness in recursive lookup?",
+    "options": {
+      "A": "HTTPS",
+      "B": "LDAP",
+      "C": "HTTP",
+      "D": "DNS",
+      "E": "SMTP"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 183,
+    "domain": "",
+    "question": "Which option is an example of symmetric key algorithm?",
+    "options": {
+      "A": "SHA-1",
+      "B": "MD5",
+      "C": "RSA",
+      "D": "DH",
+      "E": "AES"
+    },
+    "choose": 1,
+    "answer": [
+      "E"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 184,
+    "domain": "",
+    "question": "What are the three control plane subinterfaces that are automatically created by control plane protection? (Choose three) : A) D) E)",
+    "options": {
+      "A": "Host subinterface",
+      "B": "Fast-switched subinterface",
+      "C": "Process-switched subinterface",
+      "D": "Cisco Express Forwarding-exception subinterface",
+      "E": "Transit subinterface"
+    },
+    "choose": 3,
+    "answer": [
+      "E",
+      "A",
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 185,
+    "domain": "",
+    "question": "How many HTTPS sessions are used on the Cisco WSA when the decryption policy matches HTTPS traffic flowing between a user and a web server?",
+    "options": {
+      "A": "Only one HTTPS session between the user and web server is used in both directions",
+      "B": "Three HTTPS sessions - two sessions between the user and Cisco WSA - and one between the Cisco WSA and web server",
+      "C": "Two HTTPS sessions between the user and web server - one for each direction",
+      "D": "Two HTTPS sessions - one session between the user and Cisco WSA and the other session between the Cisco WSA and web server"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 186,
+    "domain": "",
+    "question": "Which option is used to establish a covert connection between two remote computers - using ICMP echo requests and reply packets - and which can be used to bypass firewall rules?",
+    "options": {
+      "A": "Smurf attack",
+      "B": "Firewalking",
+      "C": "ICMP tunneling",
+      "D": "ICMP-based operating system fingerprinting"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 187,
+    "domain": "",
+    "question": "Which option is valid to apply a group policy to a VPN session on the Cisco Firepower NGFW?",
+    "options": {
+      "A": "Apply the group policy to a user account in the local user database",
+      "B": "Apply the group policy to the connection profile",
+      "C": "Allow the user to select group policy from the drop-down menu in Cisco AnyConnect Secure Mobility Client GUI",
+      "D": "Allow the user to select group policy using the group URL when connecting to VPN"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 188,
+    "domain": "",
+    "question": "Which two statements accurately describe MAB? (Choose two) : B) D)",
+    "options": {
+      "A": "MAB augments the security of 802.1X authentication",
+      "B": "MAB uses a MAC address for both the username and the password",
+      "C": "MAB is more secure than 802.1X authentication method",
+      "D": "MAB is often used to allow network access for devices like printers or IP-based video cameras"
+    },
+    "choose": 2,
+    "answer": [
+      "D",
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 189,
+    "domain": "",
+    "question": "Which command applies the control plane protection policy map to the host subinterface?",
+    "options": {
+      "A": "Class-map",
+      "B": "Police",
+      "C": "Policy-map",
+      "D": "Service-policy"
+    },
+    "choose": 1,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 190,
+    "domain": "",
+    "question": "Which engine in the Cisco FTD software is responsible for inspecting traffic against security intelligence and IPS features?",
+    "options": {
+      "A": "Snort engine",
+      "B": "ASA engine",
+      "C": "Firewall engine",
+      "D": "IPS engine"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 191,
+    "domain": "",
+    "question": "Which three statements apply to XSS? (Choose three) : A) D) E)",
+    "options": {
+      "A": "Malicious scripts are injected into web pages and executed on the client side Incorrect answer B) A web application processes an attacker's request using the victim's authenticated session",
+      "C": "Malicious scripts are injected into web pages and executed on the server side Missed D) Scripting languages used by XSS have security weaknesses",
+      "E": "Clicking an infected link causes a malicious script to run in a background process You did not select all available correct options."
+    },
+    "choose": 3,
+    "answer": [
+      "D"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 192,
+    "domain": "",
+    "question": "An organization is implementing an endpoint security solution to protect its devices from malware and unauthorized access. Which endpoint security technology is specifically designed to prevent - detect - and remove malicious software?",
+    "options": {
+      "A": "Intrusion Prevention System (IPS)",
+      "B": "Data Loss Prevention (DLP)",
+      "C": "Antivirus/Antimalware",
+      "D": "Network Access Control (NAC)"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 193,
+    "domain": "",
+    "question": "An organization is deploying a network security solution that monitors and analyses network traffic to detect abnormal behaviour and potential security threats. Which Cisco solution provides this functionality by using machine learning and behavioural analytics?",
+    "options": {
+      "A": "Cisco Umbrella",
+      "B": "Cisco Firepower NGFW",
+      "C": "Cisco Stealthwatch Enterprise",
+      "D": "Cisco AMP for Endpoints"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 194,
+    "domain": "",
+    "question": "An organization is concerned about the increasing volume of phishing emails and malware-laden attachments reaching its employees' inboxes. The IT team is evaluating solutions to enhance email content security. Which feature of Cisco Email Security would be most effective in preventing these types of threats from reaching end-users?",
+    "options": {
+      "A": "Data Loss Prevention (DLP) policies",
+      "B": "Email Encryption",
+      "C": "Advanced Malware Protection (AMP) for email",
+      "D": "Secure Sockets Layer (SSL) inspection"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 195,
+    "domain": "",
+    "question": "Which statement regarding Cisco TrustSec is correct?",
+    "options": {
+      "A": "Assignment of SGT can be only done after 802.1X authentication",
+      "B": "Cisco TrustSec decouples access policy from network topology",
+      "C": "The only supported mechanism for SGT propagation is inline tagging",
+      "D": "Policy enforcement on switching platforms is done using SGFW functionality"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 196,
+    "domain": "",
+    "question": "A company's security team is tasked with selecting the appropriate deployment mode for a Cisco Firepower NGFW. The organization wants to maximize security while minimizing latency and complexity. After careful evaluation - the team decides to implement the NGFW in inline mode. Why might inline mode be preferred over other deployment modes - such as passive or tap mode? malicious traffic based on policies C) Tap mode would introduce excessive latency due to its monitoring-only nature D) Passive mode lacks the ability to inspect traffic and apply security measures Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 197,
+    "domain": "",
+    "question": "A company is considering implementing a Virtual Private Network (VPN) to securely connect its remote offices. They need a VPN solution that provides strong confidentiality and data integrity. Which VPN protocol would best meet these requirements?",
+    "options": {
+      "A": "PPTP (Point-to-Point Tunneling Protocol)",
+      "B": "L2TP (Layer 2 Tunneling Protocol)",
+      "C": "IPsec (Internet Protocol Security)",
+      "D": "MPLS (Multiprotocol Label Switching)"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 198,
+    "domain": "",
+    "question": "Which two settings are needed to successfully enable 802.1X on a WLAN? (Choose two) : B) C)",
+    "options": {
+      "A": "Set Layer 2 security to WEP",
+      "B": "Enable 802.1X authentication key management",
+      "C": "Set Layer 2 security to WPA+WPA2",
+      "D": "Set DHCP address assignment setting to required",
+      "E": "Set Layer 2 security to AKM"
+    },
+    "choose": 2,
+    "answer": [
+      "B",
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 199,
+    "domain": "",
+    "question": "The Cisco ASA global ACL is applied in which traffic direction?",
+    "options": {
+      "A": "Outbound",
+      "B": "Inbound",
+      "C": "Outbound or inbound",
+      "D": "Outbound and inbound"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 200,
+    "domain": "",
+    "question": "Your company uses a single router to connect to the internet - and you plan to configure infrastructure antispoofing ACLs on this router. Which type of filtering prevents external networks from sending spoofed traffic into your company network?",
+    "options": {
+      "A": "Router filtering",
+      "B": "Ingress filtering",
+      "C": "Egress filtering",
+      "D": "Ingress and egress filtering"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 201,
+    "domain": "",
+    "question": "Which statement explains the primary difference between reputation-based detection and anomaly-based detection methods?",
+    "options": {
+      "A": "Over time - reputation-based detection will learn and evaluate patterns that could indicate suspicious activity",
+      "B": "Anomaly-based detection leverages use of a 'signature' to determine whether suspicious activity is occurring",
+      "C": "Reputation-based detection allows the IPS to block all traffic from known bad sources before any significant inspection is done",
+      "D": "Anomaly-based detection is faster than reputation-based detection",
+      "E": "Reputation-based detection leverages use of a 'signature' - to determine whether suspicious activity is occurring"
+    },
+    "choose": 1,
+    "answer": [
+      "C"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 202,
+    "domain": "",
+    "question": "Which three management protocols can provide secure communications with the management plane of the device? (Choose three) : A) D) E)",
+    "options": {
+      "A": "HTTPS",
+      "B": "HTTP",
+      "C": "Telnet",
+      "D": "SSH",
+      "E": "SNMPv3"
+    },
+    "choose": 3,
+    "answer": [
+      "A",
+      "D",
+      "E"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 203,
+    "domain": "",
+    "question": "Which option should be avoided when implementing routing authentication?",
+    "options": {
+      "A": "Using HMAC-MD5 authentication",
+      "B": "Using cleartext authentication",
+      "C": "Not using the same password on all the routers in the same domain",
+      "D": "Implementing routing authentication when the peer router is reachable over an untrusted network"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 204,
+    "domain": "",
+    "question": "Which three options are valid building blocks of the DMVPN solution? (Choose three) : A) B) D)",
+    "options": {
+      "A": "NHRP",
+      "B": "GRE",
+      "C": "DVTI",
+      "D": "IPsec",
+      "E": "AES"
+    },
+    "choose": 3,
+    "answer": [
+      "D",
+      "B",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 205,
+    "domain": "",
+    "question": "What is a disadvantage of an API-based CASB approach?",
+    "options": {
+      "A": "If the application developer has not written an API - it is up to each customer to write their own APIs for the application",
+      "B": "If the application developer has not written an API - the CASB solution cannot integrate with the application",
+      "C": "API-based CASB solutions must be in the data path between the client and application",
+      "D": "API-based CASB solutions must be deployed by the application developer to integrate with the customer's API-based CASB solution"
+    },
+    "choose": 1,
+    "answer": [
+      "B"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 206,
+    "domain": "",
+    "question": "Which three options are examples of Layer 2 data plane security controls? (Choose three) : A) B) C)",
+    "options": {
+      "A": "DHCP snooping",
+      "B": "Dynamic ARP Inspection",
+      "C": "Private VLANs",
+      "D": "Intrusion prevention"
+    },
+    "choose": 3,
+    "answer": [
+      "B",
+      "C",
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 207,
+    "domain": "",
+    "question": "How is malware that is not on the allowed list able to execute?",
+    "options": {
+      "A": "By executing it in memory and injecting malicious code into a legitimate process that is currently running",
+      "B": "By changing the register setting",
+      "C": "By packing (encrypting or compressing) the file",
+      "D": "By executing it using the safe mode"
+    },
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  },
+  {
+    "id": 208,
+    "domain": "",
+    "question": "A company's security team is considering the deployment of 802.1X authentication to enhance network access control. One concern raised is the complexity of managing digital certificates for each user device. How might this concern be addressed? authentication C) By using WPA2-PSK - which eliminates the need for digital certificates D) By using static MAC address assignments instead of certificates Points: 0 / 1 Feedback: Incorrect!",
+    "options": {},
+    "choose": 1,
+    "answer": [
+      "A"
+    ],
+    "source": "CCIE assessment marked.pdf"
+  }
+]
