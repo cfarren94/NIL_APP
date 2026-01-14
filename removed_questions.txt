@@ -1,0 +1,25 @@
+Removed broken questions from source PDF export.
+Total removed: 22
+
+Original ID 14: On the Cisco ASA appliance - several interfaces can be grouped into a EtherChannel group for more throughput and redundancy between the security appliance - and the connected networking devices. What 
+Original ID 22: Which Cisco IOS tool does CoPP use to protect the router CPU?
+Original ID 29: In an IaaS use model - for which three components is the customer responsible? (Choose three)
+Original ID 33: An organization is deploying 802.1X authentication across its network to enhance security. The security team is debating whether to use EAP-TLS or EAP-PEAP for authentication. What consideration might
+Original ID 62: Which two statements describe the default IPsec transform set configuration? (Choose two) : B) E) C) The default mode of the custom transform set is tunnel D) The default mode of the custom transform 
+Original ID 64: By what means is the retrospective security in AMP for Endpoints provided by? B) Inspection engines C) AMP connector
+Original ID 67: Which statement accurately describes inaccessible authentication bypass? B) Once a port is put into the critical VLAN - it cannot be re-initialized without bouncing the port switch puts the port into 
+Original ID 87: Which statement regarding the device and file trajectory is correct?
+Original ID 91: Which statement describes the concept of a connection profile inside Cisco ASDM?
+Original ID 99: A company is setting up a point-to-point IPsec VPN using Virtual Tunnel Interfaces (VTIs) on Cisco routers. The security team needs to decide whether to use route-based or policy-based IPsec VPN. Whic
+Original ID 108: Which three options can be used as membership criteria in the Access policy groups? (Choose three)
+Original ID 117: A security administrator is configuring remote access SSL VPN on a Cisco Firepower Next-Generation Firewall (NGFW). The administrator has the option to choose between Full Tunnel and Split Tunnel mode
+Original ID 135: Which three options are true when the Cisco ASA appliance is set to operate in multiple-context mode? (Choose three)
+Original ID 153: A company is considering the deployment of NetFlow as a traffic telemetry method. What advantage does NetFlow offer over traditional packet capture methods for network traffic analysis?
+Original ID 165: An organization is evaluating different security measures to protect its sensitive data from unauthorized access. One of the options is to implement a data encryption solution that ensures data confid
+Original ID 167: What is the Stealthwatch Enterprise mechanism that assigns index points to a host? B) Alarm D) Impact level
+Original ID 168: Which three message types can be assigned to a malicious message after being scanned by the antivirus engine? (Choose three) : B) C) E) E) Unscannable message You did not select all available correct 
+Original ID 170: Which two options are advantages of using Cisco AnyConnect Secure Mobility Client over native Microsoft Windows 10 OS supplicant? (Choose two)
+Original ID 171: How do watering hole attacks avoid detection by scanning services? that the target group of users are known to visit malware attack cannot be attributed to servers owned by the attacker C) By compromi
+Original ID 191: Which three statements apply to XSS? (Choose three)
+Original ID 196: A company's security team is tasked with selecting the appropriate deployment mode for a Cisco Firepower NGFW. The organization wants to maximize security while minimizing latency and complexity. Afte
+Original ID 208: A company's security team is considering the deployment of 802.1X authentication to enhance network access control. One concern raised is the complexity of managing digital certificates for each user 

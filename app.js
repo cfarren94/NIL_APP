@@ -30,8 +30,13 @@ function showScreen(name) {
 }
 
 function renderQuestion() {
-  STATE.answered = false;
   STATE.selections.clear();
+
+  const prev = STATE.responses.get(STATE.idx);
+  STATE.answered = !!prev;
+  if (prev && Array.isArray(prev.selected)) {
+    for (const s of prev.selected) STATE.selections.add(s);
+  }
 
   const q = STATE.questions[STATE.idx];
   const total = STATE.questions.length;
@@ -51,6 +56,10 @@ function renderQuestion() {
   el('submitBtn').classList.remove('hidden');
   el('nextBtn').classList.add('hidden');
 
+  // Back button
+  el('backBtn').disabled = STATE.idx === 0;
+
+
   const form = el('optionsForm');
   form.innerHTML = '';
 
@@ -69,6 +78,8 @@ function renderQuestion() {
     input.name = name;
     input.id = `${name}_${letter}`;
     input.value = letter;
+    input.checked = STATE.selections.has(letter);
+    input.disabled = STATE.answered;
 
     input.addEventListener('change', () => {
       if (STATE.answered) return;
@@ -136,7 +147,15 @@ function submitAnswer() {
     selected: normaliseAnswers(selected),
     correct,
     isCorrect: ok
+  })
+
+  // Save response for back/forward navigation without double-scoring
+  STATE.responses.set(STATE.idx, {
+    selected: normaliseAnswers(selected),
+    correct,
+    isCorrect: ok
   });
+;
 
   if (STATE.showInstantFeedback) {
     const msg = ok
@@ -155,6 +174,12 @@ function showFeedback(text, ok, neutral=false) {
   fb.classList.remove('good','bad');
   if (!neutral) fb.classList.add(ok ? 'good' : 'bad');
   fb.textContent = text;
+}
+
+function backQuestion() {
+  if (STATE.idx === 0) return;
+  STATE.idx -= 1;
+  renderQuestion();
 }
 
 function nextQuestion() {
@@ -176,6 +201,7 @@ function restart() {
   STATE.answered = false;
   STATE.selections.clear();
   STATE.history = [];
+  STATE.responses = new Map();
   showScreen('start');
 }
 
@@ -233,6 +259,7 @@ async function init() {
   el('restartBtn').addEventListener('click', restart);
   el('restartBtn2').addEventListener('click', restart);
   el('submitBtn').addEventListener('click', submitAnswer);
+  el('backBtn').addEventListener('click', backQuestion);
   el('nextBtn').addEventListener('click', nextQuestion);
   el('reviewBtn').addEventListener('click', renderReview);
 

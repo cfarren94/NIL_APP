@@ -33,3 +33,7 @@ Each question looks like:
 
 - For “choose two/three”: set `choose` to 2/3 and provide multiple letters in `answer`.
 - If you know the domain later, fill in `domain` (the app will show `Domain: <value>`).
+
+
+## Broken question cleanup
+This build removes questions that were malformed/truncated in the PDF export. See `removed_questions.txt` for the removed list.
